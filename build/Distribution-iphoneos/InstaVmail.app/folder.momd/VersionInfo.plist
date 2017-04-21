@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>folder 2</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>folder</key>
+		<dict>
+			<key>v2bEmail</key>
+			<data>
+			HR4CrrW6m77ZHLsELT2mfru84ZnXTBAXCsZmlxSWLPE=
+			</data>
+			<key>v2bFile</key>
+			<data>
+			cjL5pNKoIJL1YiHa2lgkRRi5ot9aZd0n73A0fEO57eY=
+			</data>
+			<key>v2bFolder</key>
+			<data>
+			3ga01vh/6KwJHLsFatAAYSaInacSSlpYTSDbDA6bovM=
+			</data>
+			<key>v2bPayment</key>
+			<data>
+			NIgwwtsE2Vi+Pkx0Mw5MOqkHnGYNT3+dli0PIu0jDUs=
+			</data>
+			<key>v2bSettings</key>
+			<data>
+			cgAx05AwE2DZ1LNJYRtJ7/27AofYWBQ78uagyysBqFo=
+			</data>
+		</dict>
+		<key>folder 2</key>
+		<dict>
+			<key>v2bEmail</key>
+			<data>
+			HR4CrrW6m77ZHLsELT2mfru84ZnXTBAXCsZmlxSWLPE=
+			</data>
+			<key>v2bFile</key>
+			<data>
+			cjL5pNKoIJL1YiHa2lgkRRi5ot9aZd0n73A0fEO57eY=
+			</data>
+			<key>v2bFolder</key>
+			<data>
+			3ga01vh/6KwJHLsFatAAYSaInacSSlpYTSDbDA6bovM=
+			</data>
+			<key>v2bPayment</key>
+			<data>
+			NIgwwtsE2Vi+Pkx0Mw5MOqkHnGYNT3+dli0PIu0jDUs=
+			</data>
+			<key>v2bSettings</key>
+			<data>
+			cgAx05AwE2DZ1LNJYRtJ7/27AofYWBQ78uagyysBqFo=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

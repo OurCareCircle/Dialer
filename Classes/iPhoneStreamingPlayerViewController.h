@@ -1,0 +1,49 @@
+//
+//  iPhoneStreamingPlayerViewController.h
+//  iPhoneStreamingPlayer
+//
+//  Created by Matt Gallagher on 28/10/08.
+//  Copyright Matt Gallagher 2008. All rights reserved.
+//
+//  Permission is given to use this source code file, free of charge, in any
+//  project, commercial or otherwise, entirely at your risk, with the condition
+//  that any redistribution (in part or whole) of source code must retain
+//  this copyright and permission notice. Attribution in compiled projects is
+//  appreciated but not required.
+//
+
+#import <UIKit/UIKit.h>
+
+@class AudioStreamer;
+
+@interface iPhoneStreamingPlayerViewController : UIViewController
+{
+	IBOutlet UITextField *downloadSourceField;
+	IBOutlet UIButton    *button;
+	IBOutlet UIView      *volumeSlider;
+	IBOutlet UILabel     *positionLabel;
+	IBOutlet UISlider    *progressSlider;
+	AudioStreamer        *streamer;
+	NSTimer              *progressUpdateTimer;
+	BOOL                 isPlaying; //local var keeps track of streamer state
+	UITableViewCell     *cell;      //which row are we playing currently?
+    NSURL               *urlCurrentlyPlaying;
+}
+
+@property (readwrite, assign) UITextField     *downloadSourceField;
+@property (readwrite, assign) UIButton        *button;
+@property (readwrite, assign) UIView          *volumeSlider;
+@property (readwrite, assign) UILabel         *positionLabel;
+@property (readwrite, assign) UISlider        *progressSlider;
+@property (readwrite, assign) BOOL             isPlaying;
+@property (readwrite, assign) UITableViewCell *cell;
+@property (readwrite, assign) NSURL           *urlCurrentlyPlaying;
+
+- (IBAction)buttonPressed:(id)sender;
+- (void)spinButton;
+- (void)updateProgress:(NSTimer *)aNotification;
+- (IBAction)sliderMoved:(UISlider *)aSlider;
+- (void) clearState;
+
+@end
+
